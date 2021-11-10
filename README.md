@@ -3,6 +3,7 @@ Print da extensão funcionando:
 ---
 ![Screenshot](screenshot1.png)
 ![Screenshot](screenshot.png)
+
 > A Vue.js project
 
 ## Build Setup
