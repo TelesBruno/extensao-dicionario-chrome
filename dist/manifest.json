@@ -6,10 +6,6 @@
   "browser_action":{
     "default_popup":"popup.html"
   },
-  "background": {
-    "service_worker": "background.js",
-    "content_scripts":"vue.js"
-  },
   "permissions": ["storage", "activeTab"],
   
 
@@ -18,7 +14,6 @@
     "32": "/images/logo32.png",
     "48": "/images/logo48.png",
     "128": "/images/logo128.png"
-  },
-  "options_page": "options.html"
+  }
   
 }
