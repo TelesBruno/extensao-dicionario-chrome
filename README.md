@@ -1,8 +1,8 @@
 # exntesao-dicionario-chrome
 Print da extensão funcionando:
 ---
-![Screenshot](screenshot1.png)
-![Screenshot](screenshot.png)
+![Screenshot](screenshot1.PNG)
+![Screenshot](screenshot.PNG)
 
 > A Vue.js project
 
