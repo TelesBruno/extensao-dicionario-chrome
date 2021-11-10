@@ -1,7 +1,6 @@
 <template>
   <div id="app">
-    <button v-if="finalizouBusca" id="retornar" @click="finalizouBusca = false;palavra = '';">retornar</button>
-    <div v-if="!finalizouBusca" id="primeira-tela">
+    <div v-show="!finalizouBusca" id="primeira-tela">
       <div id="titulo">
         <h2>Dicionário da Língua Portuguesa</h2>
       </div>
@@ -11,7 +10,7 @@
       </div>
     </div>
     <resultado
-    v-if="finalizouBusca"
+    v-show="finalizouBusca"
       :tipo="tipo"
       :etimologia="etimologia"
       :significado="significado"
@@ -64,14 +63,12 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #b2b5b8;
+  color: #2c3e50;
+  margin-top: 60px;
 }
- 
+
 #pesquisar {
   display: flex;
-}
-#retornar{
-  float:right;
 }
 h1,
 h2 {

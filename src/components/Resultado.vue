@@ -1,8 +1,8 @@
 <template>
-<div id='resultado'>
+<div>
     <p><i>{{tipo}}</i></p>
-    <p><b>Significado:</b> <span>{{significado}}</span></p>
-    <p><b>Etimologia:</b><span>{{etimologia}}</span></p>
+    <p>Significado: <span>{{significado}}</span></p>
+    <p>Etimologia:<span>{{etimologia}}</span></p>
 </div>
 
 </template>
@@ -25,8 +25,5 @@ export default ({
 </script>
 
 <style scoped>
-#resultado {
-  margin-top:30px;
-  color: black;
-}
+
 </style>
