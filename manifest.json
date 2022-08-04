@@ -5,21 +5,17 @@
     "background": {
         "service_worker": "background.js"
     },
-    "permissions": ["storage","activeTab", "scripting"],
+    "permissions": ["storage", "activeTab", "scripting"],
     "action": {
-        "default_icon": { // optional
-            // "16": "images/logo16.png",
-            "32": "images/logo32.png", // optional
-            "48": "images/logo48.png" // optional
+        "default_icon": {
+            "32": "images/logo32.png", 
+            "48": "images/logo48.png" 
         },
         "default_title": "Dicionário em Português\n\nClique com o botão esquerdo do mouse para pesquisar uma frase.\nClique com o botão direito para ver as opções.",
         "default_popup": "popup.html"
     },
     "icons": {
-            // "16": "images/logo16.png",
-            //"32": "images/logo32.png", // optional
-            //"48": "images/logo48.png",
-            "64": "images/logo64.png",
-            "128": "images/logo128.png" // optional
-        }
+        "64": "images/logo64.png",
+        "128": "images/logo128.png"
+    }
 }
